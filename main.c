@@ -13,7 +13,15 @@ int nbcoup=0;
 int N1=15; /* indice de la derniere carte joueur 1 */
 int N2=15;
 
-//initjeu(jeu);
+initjeu(jeu);
+
+int i;
+
+for(i=0;i<32;i++)
+{
+	printf("valeur %d couleur %d \n", jeu[i].valeur, jeu[i].couleur);
+}
+
 
 //affiche_carte(jeu[0]);
 

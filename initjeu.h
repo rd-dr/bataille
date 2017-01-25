@@ -2,4 +2,4 @@
 #include "main.h"
 
 
-void initjeu(Carte jeu[]);
+void initjeu(Carte *jeu);
