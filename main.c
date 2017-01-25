@@ -15,14 +15,6 @@ int N2=15;
 
 initjeu(jeu);
 
-int i;
-
-for(i=0;i<32;i++)
-{
-	printf("valeur %d couleur %d \n", jeu[i].valeur, jeu[i].couleur);
-}
-
-
 //affiche_carte(jeu[0]);
 
 //affiche(jeu,32);
