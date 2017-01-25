@@ -1,12 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-
-typedef struct carte
-{
-int valeur;
-int couleur;
-} Carte;
+#include "main.h"
+//#include "initJeu.c"
 
 
 int main()
